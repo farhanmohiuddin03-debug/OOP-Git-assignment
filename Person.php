@@ -13,5 +13,9 @@ class Person {
     public function sayGoodbye() {
         return "Goodbye!";
     }
+
+    public function getName() {
+        return $this->name;
+    }
 }
 ?>
