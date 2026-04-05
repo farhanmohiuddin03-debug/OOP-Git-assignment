@@ -7,7 +7,7 @@ class Person {
     }
 
     public function greet() {
-        return "Hello, my name is " . $this->name;
+        return "Hello, my name is " . $this->name . "! Welcome!";
     }
 
     public function sayGoodbye() {
