@@ -9,5 +9,9 @@ class Person {
     public function greet() {
         return "Hello, my name is " . $this->name;
     }
+
+    public function sayGoodbye() {
+        return "Goodbye!";
+    }
 }
 ?>
